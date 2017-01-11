@@ -1,0 +1,240 @@
+body{
+  width: 100%;
+  background-color: powderblue;
+  margin: 0px;
+}
+.top img{
+  margin-left: 1200px;
+  margin-top: 5px;
+  position:fixed;
+  width: 20px;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .top img{
+    margin-left: 645px;
+    width: 18px;}
+}
+
+.login {
+  position: fixed;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+  margin-left: 1230px;
+  margin-top: 8px;
+  z-index: 1000;
+}
+@media screen and (max-width: 768px) {
+  .login {margin-left: 675px;}
+}
+
+hr{
+  position: fixed;
+  width: 1250px;
+  height: 0px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: white;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  hr{width:705px;
+    margin-left: 22px;}
+}
+
+header{
+  position:absolute;
+  margin-top: 190px;
+  margin-left: 420px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 100px;
+  width: 480px;
+  height: 180px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    margin-left: 225px;
+    width: 330px;
+    height: 135px;}
+}
+
+.logo p{
+  font-size: 60px;
+  font-family: Arial;
+  color: white;
+  padding-left: 52px;
+  margin-bottom: 30px;
+  margin-top: 22px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .logo p{
+    font-size: 43px;
+    padding-left: 35px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    padding-top: 20px;}
+}
+
+
+.slogan p{
+  font-family: Arial;
+  font-size: 18px;
+  color: 	#AAAAAA;
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .slogan p{
+    font-size: 15px;
+  padding-top: 10px;}
+}
+body img{
+  width: 100%;
+  float: left;
+  /*background-attachment: fixed;
+  background-position: center;
+  position: relative;*/
+}
+
+.side_nav{
+  clear: both;
+  margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  .side_nav{
+    margin-left: 17px;}
+}
+
+.side_nav li{
+  list-style: none;
+  float: left;
+  /*margin-left: 200px;*/
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.side_nav a{
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 20px;
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #008888;
+}
+
+@media screen and (max-width: 768px) {
+  .side_nav a{
+    margin-left: 50px;}
+}
+
+.nav{
+  position: relative;
+}
+
+.side_nav li:hover>a{
+  background-color: #87CECB;
+}
+.side_nav ul a:hover{
+  background-color:#87CECB;
+    position: relative;
+}
+.color a{
+  background-color: #48D1CC;
+}
+
+
+
+
+body h1{
+  clear: both;
+  font-size:45px;
+  color: #008888;
+  font-family: Lithos Pro black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sign-info {
+  color: #48D1CC;
+  font-size: 120%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+}
+ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+ul li:last-child {
+    margin: 0px;
+}
+ul .example-chat-username {
+    margin-right: 10px;
+}
+
+
+
+footer{
+  clear: both;
+  width: 100%;
+  height: 160px;
+  background-color: #008888;
+}
+
+@media screen and (max-width: 768px) {
+  footer{
+    height: 140px;}
+}
+
+.foot{
+  margin-left: 557px;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .foot{
+    margin-left: 300px;
+    padding-top: 40px;}
+}
+
+.foot img{
+  width: 50px;
+  margin-left: 20px;
+}
+.foot p{
+  font-size: 14px;
+  color: white;
+  font-family: Arial;
+  clear: both;
+  margin-top:80px;
+  margin-left:40px;
+}
